@@ -1,4 +1,5 @@
 ﻿using Core.Entities;
+using Core.Specification;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,5 +13,6 @@ namespace Core.Interfaces
         Task<IReadOnlyList<Product>> GetProductsAsync();
         Task<IReadOnlyList<ProductBrand>> GetProductBrandAsync();
         Task<IReadOnlyList<ProductType>> GetProductTypesAsync();
+      
     }
 }
