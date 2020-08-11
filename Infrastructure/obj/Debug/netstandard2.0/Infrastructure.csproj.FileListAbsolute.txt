@@ -9,4 +9,3 @@ D:\EcomerceAPP\SKINET\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.Ass
 D:\EcomerceAPP\SKINET\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CopyComplete
 D:\EcomerceAPP\SKINET\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
 D:\EcomerceAPP\SKINET\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb
-D:\EcomerceAPP\SKINET\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
