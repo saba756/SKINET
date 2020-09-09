@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ci+TeaJAKfWmMFMVcv0sHRIcnQw3aAld0Wo7vdFF2ln/fny7cb6+hFa3Bs+sTGudXQAP2b2RK2A72XBNDTPmIQ==",
+  "dgSpecHash": "WpyBR3dL0Pv9WXF7Wpkzvooe0hqr2c1uNFIX/iPWUxZCCanBPEpVXMN/5AGAls0ZOZe7l1faYgGYcGJED0fB0Q==",
   "success": true,
   "projectFilePath": "D:\\EcomerceAPP\\SKINET\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,7 @@
     "C:\\Users\\sata\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\sata\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\sata\\.nuget\\packages\\microsoft.aspnetcore.identity\\2.2.0\\microsoft.aspnetcore.identity.2.2.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.identity.entityframeworkcore\\2.1.1\\microsoft.aspnetcore.identity.entityframeworkcore.2.1.1.nupkg.sha512",
+    "C:\\Users\\sata\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.0\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.0.nupkg.sha512",
     "C:\\Users\\sata\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\sata\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\sata\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
