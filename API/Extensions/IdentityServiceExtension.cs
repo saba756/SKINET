@@ -1,6 +1,6 @@
 ﻿using Core.Entities.Identity;
 using Infrastructure.Identity;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authentication.JwtBearer; //This is a .NET Core middleware that enables our application to receive bearer tokens
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,7 +19,7 @@ namespace API.Extensions
         {
             var builder = services.AddIdentityCore<AppUser>();
             builder = new IdentityBuilder(builder.UserType, builder.Services);
-            builder.AddEntityFrameworkStores<AppIdentityDbContext>();
+            builder.AddEntityFrameworkStores<AppIdentityDbContext>(); // it allow our user manager to work our identity database
             builder.AddSignInManager<SignInManager<AppUser>>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
