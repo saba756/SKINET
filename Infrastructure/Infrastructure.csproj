@@ -11,7 +11,7 @@
 <ItemGroup>
    <PackageReference Include="MySql.Data" Version="8.0.20" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
-    <PackageReference Include="StackExchange.Redis" Version="2.1.58" />
+    <PackageReference Include="StackExchange.Redis" Version="2.0.601" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
     <PackageReference Include="System.Text.Json" Version="4.7.2" />
     <ProjectReference Include="..\Core\Core.csproj" />

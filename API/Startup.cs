@@ -30,21 +30,24 @@ namespace API
             services.AddAutoMapper(typeof(MappingProfiles));
 
             services.AddControllers();
-            services.AddDbContext<StoreContext>(options =>
-            options.UseMySql(_config.GetConnectionString("DefaultConnection")));
-            services.AddDbContext<AppIdentityDbContext>(x =>
-            {
-                x.UseMySql(_config.GetConnectionString("IdentityConnection"));
-            });
             services.AddSingleton<IConnectionMultiplexer>(c =>
             {
-                var configuration = ConfigurationOptions.Parse(_config.GetConnectionString("Redis"), true);
+                var configuration = ConfigurationOptions.Parse(_config.GetConnectionString("Redis"), 
+                    true);
                 return ConnectionMultiplexer.Connect(configuration);
 
             });
             services.AddApplicationService();
             services.AddIdentityServices(_config);
             services.AddSwaggerDocumentation();
+            services.AddDbContext<StoreContext>(options =>
+            options.UseMySql(_config.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<AppIdentityDbContext>(x =>
+            {
+                x.UseMySql(_config.GetConnectionString("IdentityConnection"));
+            });
+       
+            
             services.AddCors(opt =>
            {
                opt.AddPolicy("CorsPolicy", policy =>

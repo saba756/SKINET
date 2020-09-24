@@ -21,7 +21,7 @@ namespace API.Dtos
         [Required]
         public string PictureUrl { get; set; }
         [Required]
-        public string Brands { get; set; }
+        public string Brand { get; set; }
         [Required]
         public string Type { get; set; }
     }
