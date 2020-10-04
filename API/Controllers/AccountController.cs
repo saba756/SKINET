@@ -41,7 +41,7 @@ namespace API.Controllers
             {
                 Email = user.Email,
                 Token = _tokenService.CreateToken(user),
-                Displayname = user.DispalyName
+                Displayname = user.DisplayName
             };
 
         }
@@ -80,7 +80,7 @@ namespace API.Controllers
             {
                 Email = user.Email,
                 Token = _tokenService.CreateToken(user),
-                Displayname = user.DispalyName
+                Displayname = user.DisplayName
             };
         }
         [HttpPost("register")]
@@ -95,7 +95,7 @@ namespace API.Controllers
             }
             var user = new AppUser
             {
-                DispalyName = registerDto.DisplayName,
+                DisplayName= registerDto.DisplayName,
                 Email = registerDto.Email,
                 UserName = registerDto.Email
             };
@@ -103,7 +103,7 @@ namespace API.Controllers
             if (!result.Succeeded) return BadRequest(new ApiResponse(400));
             return new UserDto
             {
-                Displayname = user.DispalyName,
+                Displayname = user.DisplayName,
                 Token = _tokenService.CreateToken(user),
                 Email = user.Email
                 

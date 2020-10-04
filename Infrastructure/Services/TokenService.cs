@@ -25,14 +25,14 @@ namespace Infrastructure.Services
         public string CreateToken(AppUser user)
         {
             var claims = new List<Claim>
-            // claim is the bit of information avout the user 
+            // claim is the bit of information about the user 
             //its could be a user might have a date of birth
             // and they would claim like date of birth is less
             // or user has email they are claiming their email is less
             //type of claim is jwt registr clam
             {
                 new Claim(JwtRegisteredClaimNames.Email, user.Email),
-                 new Claim(JwtRegisteredClaimNames.GivenName, user.DispalyName)
+                 new Claim(JwtRegisteredClaimNames.GivenName, user.DisplayName)
             };
             // these calims are inside the token  are going to able to decoded by the client
             // we will not put sensitive information here
