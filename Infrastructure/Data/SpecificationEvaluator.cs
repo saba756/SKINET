@@ -8,7 +8,9 @@ using System.Text;
 
 namespace Infrastructure.Data
 {
- public   class SpecificationEvaluator<TEntity> where TEntity : BaseEntity
+    //in order to apply the specifications that a user defines to an IQueryable. 
+    //This is the point where we will make the Repository and Specification pattern work together
+    public class SpecificationEvaluator<TEntity> where TEntity : BaseEntity
     {
         public static IQueryable<TEntity> GetQuery(IQueryable <TEntity> inputQuery,
              ISpecification<TEntity> spec)

@@ -9,19 +9,21 @@ using System.Threading.Tasks;
 
 namespace API.Helpers
 {
-    public class OderItemUrlResolver : IValueResolver<OrderItem, OrderItemDto, string>
+    public class OrderItemUrlResolver : IValueResolver<OrderItem, OrderItemDto, string>
     {
         private readonly IConfiguration _config;
-        public OderItemUrlResolver(IConfiguration config)
+        public OrderItemUrlResolver(IConfiguration config)
         {
             _config = config;
         }
+
         public string Resolve(OrderItem source, OrderItemDto destination, string destMember, ResolutionContext context)
         {
             if (!string.IsNullOrEmpty(source.ItemOrdered.PictureUrl))
             {
                 return _config["ApiUrl"] + source.ItemOrdered.PictureUrl;
             }
+
             return null;
         }
     }

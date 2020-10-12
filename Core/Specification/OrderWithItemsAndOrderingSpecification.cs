@@ -18,7 +18,7 @@ namespace Core.Specification
             base(o => o.Id == id && o.BuyerEmail == email)
         {
 
-            AddInclude(O => O.OrderItems);
+            AddInclude(o => o.OrderItems);
             AddInclude(o => o.DeliveryMethod);
         }
     }
