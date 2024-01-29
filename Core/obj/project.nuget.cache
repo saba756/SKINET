@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5WQfAYcWtQ3lpgQutZWaaq87XirHaf9K8BvsOnatQoPN+agXImEeYfyCZWoT+fyxYck1734FbfYFRyY1tMhyxQ==",
+  "dgSpecHash": "IjXNRFCdbx5BLL4a2linGSRchsMj+KHXDyOG+P+WOT02dUYLQK/859VsTA9mD2h734GlfOjEhecmLsCj6fVJBQ==",
   "success": true,
-  "projectFilePath": "D:\\EcomerceAPP\\SKINET\\Core\\Core.csproj",
+  "projectFilePath": "D:\\SKINET\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sata\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.6\\microsoft.aspnetcore.cryptography.internal.3.1.6.nupkg.sha512",
     "C:\\Users\\sata\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.6\\microsoft.aspnetcore.cryptography.keyderivation.3.1.6.nupkg.sha512",

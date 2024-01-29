@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EcomerceAPP\\SKINET\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\SKINET\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\EcomerceAPP\\SKINET\\Core\\Core.csproj": {
+    "D:\\SKINET\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EcomerceAPP\\SKINET\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\SKINET\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\EcomerceAPP\\SKINET\\Core\\Core.csproj",
+        "projectPath": "D:\\SKINET\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\sata\\.nuget\\packages\\",
-        "outputPath": "D:\\EcomerceAPP\\SKINET\\Core\\obj\\",
+        "outputPath": "D:\\SKINET\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sata\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
@@ -53,7 +55,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -62,18 +65,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\EcomerceAPP\\SKINET\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\SKINET\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EcomerceAPP\\SKINET\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\SKINET\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\EcomerceAPP\\SKINET\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\SKINET\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\sata\\.nuget\\packages\\",
-        "outputPath": "D:\\EcomerceAPP\\SKINET\\Infrastructure\\obj\\",
+        "outputPath": "D:\\SKINET\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sata\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,9 +91,10 @@
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "D:\\EcomerceAPP\\SKINET\\Core\\Core.csproj": {
-                "projectPath": "D:\\EcomerceAPP\\SKINET\\Core\\Core.csproj"
+              "D:\\SKINET\\Core\\Core.csproj": {
+                "projectPath": "D:\\SKINET\\Core\\Core.csproj"
               }
             }
           }
@@ -103,6 +107,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -151,7 +156,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -160,7 +166,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

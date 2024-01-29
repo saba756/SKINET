@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ACfrZDvDRxqkdHXrNWXFO10MOfs5R6WrrZNYu3WqK49+EVeaL2Zq/Y2GJ9pjcOr9crqtQdeBFy7P0EVxZGEr7Q==",
+  "dgSpecHash": "j758Rm5r/YebTdxe0IhiO1CyR2JX9lLWP8XFPw8wJ91n/uqD5rBbox25qhNrD0VjK5vpilO8UBm8QR9GG9FYRw==",
   "success": true,
-  "projectFilePath": "D:\\EcomerceAPP\\SKINET\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\SKINET\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sata\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\sata\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",
@@ -165,5 +165,26 @@
     "C:\\Users\\sata\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
     "C:\\Users\\sata\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.7.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.7.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g9c-28fc-mcx2",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
 }
